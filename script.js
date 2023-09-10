@@ -217,7 +217,7 @@ function applyDiscountCode() {
   const discountCodeInput = document.getElementById('discountCode');
   const discountCode = discountCodeInput.value;
 
-  if (!discountApplied && discountCode === 'Biwash07') {
+  if (!discountApplied && discountCode === 'Ozone45') {
     // Apply a 15% discount if the code is valid and the discount hasn't been applied yet
     const grandTotalSpan = document.getElementById('grandTotal');
     const grandTotal = parseFloat(grandTotalSpan.textContent.replace('NPR ', ''));
@@ -247,7 +247,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const copyDiscountCodeBtn = document.getElementById("copyDiscountCodeBtn");
 
   copyDiscountCodeBtn.addEventListener("click", function () {
-    const discountCode = "Biwash07";
+    const discountCode = "Ozone45";
 
     // Create a temporary input element to copy the text
     const tempInput = document.createElement("input");
